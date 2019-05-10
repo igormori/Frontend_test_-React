@@ -8,18 +8,20 @@ import Company from './body/appraisalCompany/company'
 import Details from './body/orderDetails/details' 
 import Body from './body/body'
 
-
 function App() {
   return (
     <div className="App">
         <Header></Header>
         <BrowserRouter>
       <Switch> 
-        <Route path="/address" component={Address}/>
+        
+        
         <Route path="/type" component={Type}/>
         <Route path="/company" component={Company}/>
         <Route path="/details" component={Details}/>
         <Route path="/submit" component={Body}/>
+        <Route path="/" component={Address}/>
+        
       </Switch>
   </BrowserRouter>
     </div>

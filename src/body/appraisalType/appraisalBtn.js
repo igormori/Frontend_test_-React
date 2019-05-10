@@ -9,7 +9,7 @@ export class AppraisalBtn extends React.Component {
           <div className="container mt-5  mb-2 ">
           <div className="row">
               <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 btnBackCol ">
-              <Link  to="/address">
+              <Link  to="/">
               <button type="submit" className="btnBack border border-primary text-primary rounded bg-light"><b>Back</b></button>
               </Link>
               </div>
