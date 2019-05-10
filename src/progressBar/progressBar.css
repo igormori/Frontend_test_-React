@@ -1,0 +1,56 @@
+span.steps {
+    background: #657cff;
+    border-radius: 1.2em;
+    -moz-border-radius: 1.2em;
+    -webkit-border-radius: 1.2em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2.4em;
+    text-align: center;
+    width: 2.4em; 
+    
+  }
+  span.steps2 {
+    border-color: #657cff;
+    border: 0.5px solid;
+    border-radius: 1.2em;
+    -moz-border-radius: 1.2em;
+    -webkit-border-radius: 1.2em;
+    color: #657cff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2.4em;
+    text-align: center;
+    width: 2.4em; 
+    
+  }
+  .text{
+      color: lightgrey
+  }
+  .progressBar{
+    min-height: 20px
+  }
+
+.number{
+  text-align: right !important;
+  align-content:center !important;
+}
+.appraisal{
+  text-align: left !important;
+  align-content:center !important;
+}
+
+  @media only screen and (max-width: 600px) {
+    .steps{
+      margin:0px !important
+    }
+}
+@media only screen and (max-width: 400px) {
+ .text{
+   font-size: 10px
+ }
+ .textActive{
+  font-size: 10px
+}
+}

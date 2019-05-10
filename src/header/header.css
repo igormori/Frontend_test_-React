@@ -1,0 +1,32 @@
+.grey{
+    color:lightgrey
+}
+span.step {
+    background: #ff6565;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2.0em;
+    margin-right: 5px;
+    text-align: center;
+    width: 2.0em; 
+    
+  }
+ 
+Thanks for giving me hint and found out the solution with following changes in css,
+
+i.icons {
+    display: inline-block;
+    transform: translateY(10%);
+    }
+    @media only screen and (max-width: 600px) {
+        .icons{
+          margin:5px !important;
+        }
+        .picture{
+          margin-left:25px !important;
+        }
+    }
