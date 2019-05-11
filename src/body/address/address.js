@@ -48,7 +48,7 @@ class Address extends Component {
           addressFilled:<AddressFilled  streetNumber={address[0].long_name}
           streetName={address[1].long_name} streetType={address[1].long_name}
           streetDirection={address[1].long_name} city={address[2].long_name} 
-          province={address[5].long_name} postal={address[7].long_nam} ></AddressFilled>
+          province={address[5].long_name} postal={address[7].long_name} ></AddressFilled>
           
         })
         localStorage.setItem("address",address[0].long_name+" "+address[1].long_name+", "+address[2].long_name+", "+address[5].long_name)
